@@ -54,3 +54,9 @@ public class UserController {
         });
     }
 }
+/*
+toString:
+toString is one of the methods that is inherited from
+Object
+it's automatically called whenever we try to print an object
+ */

@@ -32,4 +32,13 @@ public class User {
     public void setUserID(int userID) {
         this.userID = userID;
     }
+//    TODO: fix equals method
+    /*
+    @Override
+    public boolean equals(User u){
+        if(u.getPassword() == password && u.getUsername() == username){
+            return true;
+        }
+        return false;
+    }*/
 }
