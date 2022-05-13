@@ -53,8 +53,9 @@ public class UserController {
             }
         });
 
-        app.put("/banUser", context -> {
-            context.result("user banned!");
+        app.put("/banUser/{id}", context -> {
+            int id = Integer.parseInt(context.pathParam("id"));
+            context.result("user " + id + " banned!");
         });
     }
 }
