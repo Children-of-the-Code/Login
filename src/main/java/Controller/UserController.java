@@ -52,6 +52,10 @@ public class UserController {
                 context.result(""+userID);
             }
         });
+
+        app.put("/banUser", context -> {
+            context.result("user banned!");
+        });
     }
 }
 /*
